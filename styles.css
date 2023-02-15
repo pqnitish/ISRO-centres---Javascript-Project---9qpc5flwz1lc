@@ -1,1 +1,47 @@
+.box {
+    padding: 10px;
+    background: royalblue;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin: 3px;
+}
 
+strong:hover {
+    cursor: pointer;
+}
+
+input[type="text"]::placeholder {
+    text-align: center;
+}
+
+input[type="text"] {
+    border-radius: 50px;
+    padding: 13px;
+    border: 0px;
+    background:url("search.png") no-repeat right;
+    background-color: gainsboro;
+    background-size: 30px;
+    font-size: 15px;
+}
+
+td #static {
+    text-align: center;
+}
+
+th,
+td {
+    text-align: left;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+tr {
+    border-radius: 50%;
+}
+h1 span{
+    color: blue;
+}
